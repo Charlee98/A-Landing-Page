@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(244, 239, 239);
+    font-size: 1rem;
+}
+.hero{
+    background: url(./image/beach.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.hero-text{
+    /* border: 1px solid yellow; */
+    position: absolute;
+    display: block;
+    text-align: center;
+    top: 40%;
+    left: 15%;
+    transform: translate(-50,-50);
+    padding: .5rem;
+}
+.hero-text-main{
+    font-size: 2.5rem;
+    word-spacing: 1rem;
+    font-weight: 700;
+    color: rgb(33, 33, 132);
+}
+
+.hero-text-sub{
+    color: rgb(33, 33, 132);
+    line-height: 1.5rem;
+    word-spacing: 1rem;
+    font: 800;
+}
+
+.btn{
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: 1px solid  rgb(33, 33, 132);
+    background: transparent;
+}
+
+.btn:hover{
+    background-color:rgb(33, 33, 132);
+    color: white;
+    /* color: white; */
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding-top:1.5rem;
+    padding-bottom: 1.5rem;
+
+}
+.page{
+    text-align: center;
+    line-height: 1.5rem;
+
+}
+
+.dark{
+    background-color:rgb(33, 33, 132);
+    color: white;
+    padding: 1.5rem;
+    /* padding-top: 1.5rem;
+    padding-bottom: 1.5rem; */
+
+}
+
+.light{
+    color:rgb(33, 33, 132);
+    padding: 1.5rem;
+    /* padding-top:1.5rem;
+    padding-bottom: 1.5rem; */
+}
+
+.general{
+    display: flex;
+    width: 100%;
+    color: white;
+    background-color:rgb(33, 33, 132);
+    line-height: 1.5rem;
+}
+
+.general-child{
+    width: 33%;
+    padding: 1.5rem;
+}
+
+.extra{
+    background: rgb(244, 239, 239); 
+    color: rgb(33, 33, 132);
+}
